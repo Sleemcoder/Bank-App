@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #77A5F5;
+}
+ul {
+    color: #00887A;
+    list-style-type: none;
+}
+li{
+    display: block;
+}
+
+li a {
+    text-decoration: none;
+    color: #00887A;
+}
+
+footer {
+    background-color: #77A5F5;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #D3E3FC;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: #00887A;
+    opacity: 0.9;
+}
+
+.social-icons a:hover {
+    background-color: #5E7E94;
+
+}
+
+.social-icons a i:hover {
+    color: #FFCCBB;
+}
